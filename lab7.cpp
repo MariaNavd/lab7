@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <cmath>
 
 double* proizv(double** x, double* y, int m, int n) {
 	double* new_arr = new double [m];
