@@ -1,13 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.linspace(0, 2, 100)
-
-def fun(y, x):
-    y1, y2 = y
-    dydx = [y2, -y2 + 4 * y1 + x * np.exp(-x)]
-    return dydx
-
 a = np.loadtxt('result.txt')
 
 plt.figure()
