@@ -21,3 +21,5 @@ plt.figure()
 plt.title('Phase trajectory')
 plt.plot(a[:, 1], a[:, 2], 'b')
 plt.grid()
+
+plt.show()
